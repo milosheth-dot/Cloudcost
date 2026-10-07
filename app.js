@@ -3,10 +3,17 @@ const $ = id => document.getElementById(id);
 const money = n => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
 const kg = n => n.toFixed(2)+' kgCO₂e';
 let data, drill=null, loadVersion=0, scenarioVersion=0, timer;
+const datasets=new Map([['demo',{id:'demo',name:'Synthetic demo',rows:EcoEngine.demoRows()}]]);
+function selectedRows(o){const dataset=datasets.get(o.dataset||'demo');if(!dataset)throw Error('Unknown dataset');return EcoEngine.select(dataset.rows,o);}
 async function api(url,body){
- const response=await fetch(url,body===undefined?{}:{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
- const result=await response.json(); if(!response.ok)throw Error(result.error||'Request failed');return result;
+ const path=url.split('?')[0];
+ if(path==='/api/data'){const o=Object.fromEntries(new URLSearchParams(url.split('?')[1]||''));const rows=selectedRows(o);return {summary:EcoEngine.summarize(rows),anomalies:EcoEngine.anomalies(rows),datasets:[...datasets.values()].map(({id,name})=>({id,name}))};}
+ if(path==='/api/simulate')return EcoEngine.simulate(selectedRows(body),body);
+ if(path==='/api/import'){const rows=EcoEngine.parseCSV(body.csv),id='import-'+(++importCount);datasets.set(id,{id,name:body.name,rows});return {dataset:id,rows:rows.length};}
+ throw Error('Unknown browser operation');
 }
+let importCount=0,exportURL;
+function updateExport(){if(exportURL)URL.revokeObjectURL(exportURL);exportURL=URL.createObjectURL(new Blob([EcoEngine.csv(selectedRows(selection()))],{type:'text/csv;charset=utf-8'}));$('export').href=exportURL;}
 function selection(){return {dataset:$('dataset').value||'demo',days:Number($('days').value),filter_provider:$('provider').value};}
 function query(){return new URLSearchParams(selection()).toString();}
 function option(value,text){const e=document.createElement('option');e.value=value;e.textContent=text;return e;}
@@ -18,7 +25,7 @@ async function load(){
   const result=await api('/api/data?'+query());if(version!==loadVersion)return;
   data=result; const selected=$('dataset').value||'demo';
   $('dataset').replaceChildren(...data.datasets.map(d=>option(d.id,d.name)));$('dataset').value=selected;
-  $('export').href='/api/export?'+query();
+  updateExport();
   const demo=selected==='demo';$('source').textContent=demo?'Synthetic demo · Illustrative energy and grid assumptions, not live cloud measurements.':'Imported observations · Carbon estimates depend on the energy, PUE and intensity you supplied.';
   const s=data.summary;$('totalCost').textContent=money(s.cost);$('totalCarbon').textContent=kg(s.carbon);$('resourceCount').textContent=s.resources.length;$('anomalyCount').textContent=data.anomalies.length;
   $('period').textContent=s.days+' observed days'+(s.days?' · through '+s.timeline.at(-1).date:'');

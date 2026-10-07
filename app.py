@@ -19,7 +19,7 @@ class Store:
         with sqlite3.connect(path) as db:
             db.execute('CREATE TABLE IF NOT EXISTS datasets (id TEXT PRIMARY KEY, name TEXT NOT NULL, created TEXT DEFAULT CURRENT_TIMESTAMP)')
             db.execute('CREATE TABLE IF NOT EXISTS observations (dataset_id TEXT NOT NULL, payload TEXT NOT NULL)')
-            if not db.execute('SELECT 1 FROM datasets').fetchone():
+            if not db.execute('Select 1 FROM datasets').fetchone():
                 db.execute('INSERT INTO datasets(id,name) VALUES (?,?)', ('demo', 'Synthetic demo'))
                 db.executemany('INSERT INTO observations VALUES (?,?)', [('demo', json.dumps(r)) for r in demo_rows()])
     def list(self):

@@ -1,0 +1,151 @@
+date,provider,service,region,resource_id,cost_usd,energy_kwh,intensity_g_per_kwh,pue
+2026-09-08,AWS,EC2,us-east-1,api-server,4.8,2.2,390,1.2
+2026-09-08,AWS,RDS,us-east-1,production-db,6.513,3.6767,390,1.2
+2026-09-08,GCP,Compute Engine,europe-west1,worker-pool,4.0073,3.0582,180,1.2
+2026-09-08,AZURE,Virtual Machines,eastus,analytics,5.5466,3.1262,420,1.2
+2026-09-08,AWS,S3,us-west-2,archive,1.1455,0.3818,160,1.2
+2026-09-09,AWS,EC2,us-east-1,api-server,5.0423,2.3111,390,1.2
+2026-09-09,AWS,RDS,us-east-1,production-db,6.5383,3.691,390,1.2
+2026-09-09,GCP,Compute Engine,europe-west1,worker-pool,3.8322,2.9246,180,1.2
+2026-09-09,AZURE,Virtual Machines,eastus,analytics,5.2503,2.9592,420,1.2
+2026-09-09,AWS,S3,us-west-2,archive,1.131,0.377,160,1.2
+2026-09-10,AWS,EC2,us-east-1,api-server,5.0619,2.32,390,1.2
+2026-09-10,AWS,RDS,us-east-1,production-db,6.2525,3.5296,390,1.2
+2026-09-10,GCP,Compute Engine,europe-west1,worker-pool,3.6274,2.7683,180,1.2
+2026-09-10,AZURE,Virtual Machines,eastus,analytics,5.1836,2.9216,420,1.2
+2026-09-10,AWS,S3,us-west-2,archive,1.1799,0.3933,160,1.2
+2026-09-11,AWS,EC2,us-east-1,api-server,4.8406,2.2186,390,1.2
+2026-09-11,AWS,RDS,us-east-1,production-db,5.9185,3.3411,390,1.2
+2026-09-11,GCP,Compute Engine,europe-west1,worker-pool,3.5814,2.7331,180,1.2
+2026-09-11,AZURE,Virtual Machines,eastus,analytics,5.4078,3.048,420,1.2
+2026-09-11,AWS,S3,us-west-2,archive,1.2473,0.4158,160,1.2
+2026-09-12,AWS,EC2,us-east-1,api-server,4.582,2.1001,390,1.2
+2026-09-12,AWS,RDS,us-east-1,production-db,5.8433,3.2986,390,1.2
+2026-09-12,GCP,Compute Engine,europe-west1,worker-pool,3.7363,2.8514,180,1.2
+2026-09-12,AZURE,Virtual Machines,eastus,analytics,5.7168,3.2222,420,1.2
+2026-09-12,AWS,S3,us-west-2,archive,1.2712,0.4237,160,1.2
+2026-09-13,AWS,EC2,us-east-1,api-server,4.5238,2.0734,390,1.2
+2026-09-13,AWS,RDS,us-east-1,production-db,6.0961,3.4413,390,1.2
+2026-09-13,GCP,Compute Engine,europe-west1,worker-pool,3.9498,3.0143,180,1.2
+2026-09-13,AZURE,Virtual Machines,eastus,analytics,5.8265,3.284,420,1.2
+2026-09-13,AWS,S3,us-west-2,archive,1.2297,0.4099,160,1.2
+2026-09-14,AWS,EC2,us-east-1,api-server,4.7195,2.1631,390,1.2
+2026-09-14,AWS,RDS,us-east-1,production-db,6.4444,3.638,390,1.2
+2026-09-14,GCP,Compute Engine,europe-west1,worker-pool,4.0256,3.0721,180,1.2
+2026-09-14,AZURE,Virtual Machines,eastus,analytics,5.636,3.1767,420,1.2
+2026-09-14,AWS,S3,us-west-2,archive,1.1608,0.3869,160,1.2
+2026-09-15,AWS,EC2,us-east-1,api-server,4.9892,2.2867,390,1.2
+2026-09-15,AWS,RDS,us-east-1,production-db,6.568,3.7078,390,1.2
+2026-09-15,GCP,Compute Engine,europe-west1,worker-pool,3.894,2.9717,180,1.2
+2026-09-15,AZURE,Virtual Machines,eastus,analytics,5.3205,2.9988,420,1.2
+2026-09-15,AWS,S3,us-west-2,archive,1.128,0.376,160,1.2
+2026-09-16,AWS,EC2,us-east-1,api-server,5.0849,2.3306,390,1.2
+2026-09-16,AWS,RDS,us-east-1,production-db,6.3533,3.5865,390,1.2
+2026-09-16,GCP,Compute Engine,europe-west1,worker-pool,3.676,2.8053,180,1.2
+2026-09-16,AZURE,Virtual Machines,eastus,analytics,5.17,2.914,420,1.2
+2026-09-16,AWS,S3,us-west-2,archive,1.1614,0.3871,160,1.2
+2026-09-17,AWS,EC2,us-east-1,api-server,4.9187,2.2544,390,1.2
+2026-09-17,AWS,RDS,us-east-1,production-db,5.9976,3.3858,390,1.2
+2026-09-17,GCP,Compute Engine,europe-west1,worker-pool,3.572,2.726,180,1.2
+2026-09-17,AZURE,Virtual Machines,eastus,analytics,5.3229,3.0002,420,1.2
+2026-09-17,AWS,S3,us-west-2,archive,1.2303,0.4101,160,1.2
+2026-09-18,AWS,EC2,us-east-1,api-server,4.6433,2.1282,390,1.2
+2026-09-18,AWS,RDS,us-east-1,production-db,5.828,3.29,390,1.2
+2026-09-18,GCP,Compute Engine,europe-west1,worker-pool,3.6777,2.8066,180,1.2
+2026-09-18,AZURE,Virtual Machines,eastus,analytics,5.6387,3.1782,420,1.2
+2026-09-18,AWS,S3,us-west-2,archive,1.2713,0.4238,160,1.2
+2026-09-19,AWS,EC2,us-east-1,api-server,4.512,2.068,390,1.2
+2026-09-19,AWS,RDS,us-east-1,production-db,6.0004,3.3873,390,1.2
+2026-09-19,GCP,Compute Engine,europe-west1,worker-pool,3.8958,2.9731,180,1.2
+2026-09-19,AZURE,Virtual Machines,eastus,analytics,5.8269,3.2843,420,1.2
+2026-09-19,AWS,S3,us-west-2,archive,1.2468,0.4156,160,1.2
+2026-09-20,AWS,EC2,us-east-1,api-server,4.6455,2.1292,390,1.2
+2026-09-20,AWS,RDS,us-east-1,production-db,6.3563,3.5882,390,1.2
+2026-09-20,GCP,Compute Engine,europe-west1,worker-pool,4.0259,3.0724,180,1.2
+2026-09-20,AZURE,Virtual Machines,eastus,analytics,5.7146,3.221,420,1.2
+2026-09-20,AWS,S3,us-west-2,archive,1.1793,0.3931,160,1.2
+2026-09-21,AWS,EC2,us-east-1,api-server,4.921,2.2555,390,1.2
+2026-09-21,AWS,RDS,us-east-1,production-db,6.5685,3.708,390,1.2
+2026-09-21,GCP,Compute Engine,europe-west1,worker-pool,3.9483,3.0132,180,1.2
+2026-09-21,AZURE,Virtual Machines,eastus,analytics,5.405,3.0464,420,1.2
+2026-09-21,AWS,S3,us-west-2,archive,1.1308,0.3769,160,1.2
+2026-09-22,AWS,EC2,us-east-1,api-server,5.0853,2.3308,390,1.2
+2026-09-22,AWS,RDS,us-east-1,production-db,6.4419,3.6366,390,1.2
+2026-09-22,GCP,Compute Engine,europe-west1,worker-pool,3.7344,2.8499,180,1.2
+2026-09-22,AZURE,Virtual Machines,eastus,analytics,5.1827,2.9212,420,1.2
+2026-09-22,AWS,S3,us-west-2,archive,1.1459,0.382,160,1.2
+2026-09-23,AWS,EC2,us-east-1,api-server,4.9873,2.2858,390,1.2
+2026-09-23,AWS,RDS,us-east-1,production-db,6.0929,3.4395,390,1.2
+2026-09-23,GCP,Compute Engine,europe-west1,worker-pool,3.5808,2.7327,180,1.2
+2026-09-23,AZURE,Virtual Machines,eastus,analytics,5.2522,2.9603,420,1.2
+2026-09-23,AWS,S3,us-west-2,archive,1.2108,0.4036,160,1.2
+2026-09-24,AWS,EC2,us-east-1,api-server,4.7171,2.162,390,1.2
+2026-09-24,AWS,RDS,us-east-1,production-db,5.8424,3.2981,390,1.2
+2026-09-24,GCP,Compute Engine,europe-west1,worker-pool,3.6288,2.7693,180,1.2
+2026-09-24,AZURE,Virtual Machines,eastus,analytics,5.5495,3.1279,420,1.2
+2026-09-24,AWS,S3,us-west-2,archive,1.2657,0.4219,160,1.2
+2026-09-25,AWS,EC2,us-east-1,api-server,4.5231,2.0731,390,1.2
+2026-09-25,AWS,RDS,us-east-1,production-db,5.9206,3.3423,390,1.2
+2026-09-25,GCP,Compute Engine,europe-west1,worker-pool,3.8342,2.9261,180,1.2
+2026-09-25,AZURE,Virtual Machines,eastus,analytics,5.8013,3.2698,420,1.2
+2026-09-25,AWS,S3,us-west-2,archive,1.2602,0.4201,160,1.2
+2026-09-26,AWS,EC2,us-east-1,api-server,4.5837,2.1009,390,1.2
+2026-09-26,AWS,RDS,us-east-1,production-db,6.2558,3.5315,390,1.2
+2026-09-26,GCP,Compute Engine,europe-west1,worker-pool,4.0082,3.0589,180,1.2
+2026-09-26,AZURE,Virtual Machines,eastus,analytics,5.7761,3.2556,420,1.2
+2026-09-26,AWS,S3,us-west-2,archive,1.1994,0.3998,160,1.2
+2026-09-27,AWS,EC2,us-east-1,api-server,4.8432,2.2198,390,1.2
+2026-09-27,AWS,RDS,us-east-1,production-db,6.5396,3.6917,390,1.2
+2026-09-27,GCP,Compute Engine,europe-west1,worker-pool,3.9908,3.0456,180,1.2
+2026-09-27,AZURE,Virtual Machines,eastus,analytics,5.4971,3.0984,420,1.2
+2026-09-27,AWS,S3,us-west-2,archive,1.1391,0.3797,160,1.2
+2026-09-28,AWS,EC2,us-east-1,api-server,5.0629,2.3205,390,1.2
+2026-09-28,AWS,RDS,us-east-1,production-db,6.5112,3.6757,390,1.2
+2026-09-28,GCP,Compute Engine,europe-west1,worker-pool,3.798,2.8985,180,1.2
+2026-09-28,AZURE,Virtual Machines,eastus,analytics,5.2207,2.9426,420,1.2
+2026-09-28,AWS,S3,us-west-2,archive,1.1348,0.3783,160,1.2
+2026-09-29,AWS,EC2,us-east-1,api-server,5.041,2.3104,390,1.2
+2026-09-29,AWS,RDS,us-east-1,production-db,6.1967,3.4981,390,1.2
+2026-09-29,GCP,Compute Engine,europe-west1,worker-pool,3.6071,2.7528,180,1.2
+2026-09-29,AZURE,Virtual Machines,eastus,analytics,5.2012,2.9316,420,1.2
+2026-09-29,AWS,S3,us-west-2,archive,1.1905,0.3968,160,1.2
+2026-09-30,AWS,EC2,us-east-1,api-server,4.7975,2.1988,390,1.2
+2026-09-30,AWS,RDS,us-east-1,production-db,5.8852,3.3223,390,1.2
+2026-09-30,GCP,Compute Engine,europe-west1,worker-pool,3.5935,2.7424,180,1.2
+2026-09-30,AZURE,Virtual Machines,eastus,analytics,5.4563,3.0754,420,1.2
+2026-09-30,AWS,S3,us-west-2,archive,1.2549,0.4183,160,1.2
+2026-10-01,AWS,EC2,us-east-1,api-server,4.5563,2.0883,390,1.2
+2026-10-01,AWS,RDS,us-east-1,production-db,5.8631,3.3098,390,1.2
+2026-10-01,GCP,Compute Engine,europe-west1,worker-pool,3.7698,2.877,180,1.2
+2026-10-01,AZURE,Virtual Machines,eastus,analytics,5.7516,3.2418,420,1.2
+2026-10-01,AWS,S3,us-west-2,archive,1.2689,0.423,160,1.2
+2026-10-02,AWS,EC2,us-east-1,api-server,4.5392,2.0805,390,1.2
+2026-10-02,AWS,RDS,us-east-1,production-db,6.1508,3.4722,390,1.2
+2026-10-02,GCP,Compute Engine,europe-west1,worker-pool,3.9739,3.0327,180,1.2
+2026-10-02,AZURE,Virtual Machines,eastus,analytics,29.078,16.3894,420,1.2
+2026-10-02,AWS,S3,us-west-2,archive,1.2195,0.4065,160,1.2
+2026-10-03,AWS,EC2,us-east-1,api-server,4.7619,2.1825,390,1.2
+2026-10-03,AWS,RDS,us-east-1,production-db,6.4837,3.6601,390,1.2
+2026-10-03,GCP,Compute Engine,europe-west1,worker-pool,4.0181,3.0664,180,1.2
+2026-10-03,AZURE,Virtual Machines,eastus,analytics,5.5894,3.1504,420,1.2
+2026-10-03,AWS,S3,us-west-2,archive,1.1522,0.3841,160,1.2
+2026-10-04,AWS,EC2,us-east-1,api-server,5.0196,2.3007,390,1.2
+2026-10-04,AWS,RDS,us-east-1,production-db,6.5558,3.7008,390,1.2
+2026-10-04,GCP,Compute Engine,europe-west1,worker-pool,3.8618,2.9471,180,1.2
+2026-10-04,AZURE,Virtual Machines,eastus,analytics,5.281,2.9766,420,1.2
+2026-10-04,AWS,S3,us-west-2,archive,1.1289,0.3763,160,1.2
+2026-10-05,AWS,EC2,us-east-1,api-server,5.0754,2.3262,390,1.2
+2026-10-05,AWS,RDS,us-east-1,production-db,6.3008,3.5569,390,1.2
+2026-10-05,GCP,Compute Engine,europe-west1,worker-pool,3.6487,2.7845,180,1.2
+2026-10-05,AZURE,Virtual Machines,eastus,analytics,5.1739,2.9162,420,1.2
+2026-10-05,AWS,S3,us-west-2,archive,1.1709,0.3903,160,1.2
+2026-10-06,AWS,EC2,us-east-1,api-server,4.878,2.2358,390,1.2
+2026-10-06,AWS,RDS,us-east-1,production-db,5.9531,3.3606,390,1.2
+2026-10-06,GCP,Compute Engine,europe-west1,worker-pool,3.5747,2.7281,180,1.2
+2026-10-06,AZURE,Virtual Machines,eastus,analytics,5.3667,3.0248,420,1.2
+2026-10-06,AWS,S3,us-west-2,archive,1.2397,0.4132,160,1.2
+2026-10-07,AWS,EC2,us-east-1,api-server,4.6089,2.1124,390,1.2
+2026-10-07,AWS,RDS,us-east-1,production-db,5.8325,3.2925,390,1.2
+2026-10-07,GCP,Compute Engine,europe-west1,worker-pool,3.7079,2.8297,180,1.2
+2026-10-07,AZURE,Virtual Machines,eastus,analytics,5.682,3.2026,420,1.2
+2026-10-07,AWS,S3,us-west-2,archive,1.272,0.424,160,1.2
